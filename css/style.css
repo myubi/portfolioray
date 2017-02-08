@@ -110,6 +110,7 @@ h1 {
 
 .item-ie img {
   opacity: 0;
+  display: none;
 }
 
 .item-head.item-ie {
@@ -187,7 +188,7 @@ h1 {
     -o-animation: fadein 2s;
 }
 
-.portfolio-item .imgs a {
+.portfolio-item .imgs .lightbox {
   cursor: zoom-in;
 }
 
@@ -301,7 +302,7 @@ a.lightbox-close:after {
     top: 0px;
 }
 
-.footer-nav {
+.img-nav {
     display: flex;
     justify-content: space-between;
     padding-left: 3%;
@@ -310,16 +311,16 @@ a.lightbox-close:after {
     font-size: 14px;
 }
 
-.footer-nav a {
+.img-nav a {
     color: #c67fce;
     text-decoration: none;
 }
 
-.footer-nav a:hover {
+.img-nav a:hover {
     border-bottom: 1px dashed #988d99;
 }
 
-.footer-nav span {
+.img-nav span {
     color: #b9b9b9;
 }
 
