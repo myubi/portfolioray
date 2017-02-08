@@ -94,16 +94,25 @@ h1 {
   opacity: 0.7;
 }
 
-.items-ie {
-  background-size: cover;
-  background-position: center center;
+.item.item-ie:hover {
+  opacity: 0.5;
 }
 
-.items-ie img {
+.item.item-ie:hover img {
   opacity: 0;
 }
 
-.items-ie.item-head img {
+.item-ie {
+  background-size: cover;
+  background-position: center center;
+  border-radius: 10px;
+}
+
+.item-ie img {
+  opacity: 0;
+}
+
+.item-head.item-ie {
   background-position: top center;
 }
 
