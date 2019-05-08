@@ -1,7 +1,7 @@
 ---
 title: "The Hobbit + Miss Peregrine’s Home for Peculiar Children"
 date: 2019-05-07T18:25:35+01:00
-draft: true
+draft: false
 weight: 1
 thumbnail: "img/books01/Book_Hobbit.png"
 gallery: 

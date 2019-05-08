@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2019-05-07T16:43:45+01:00
-draft: true
+draft: false
 ---
 
 I’m an illustrator and graphic designer with a passion for videogames, cartoons and all things animated.

@@ -1,7 +1,7 @@
 ---
 title: "The Invention of Morel"
 date: 2019-05-07T15:47:43+01:00
-draft: true
+draft: false
 weight: 1
 thumbnail: "img/books02/Book_MorelCapa.png"
 gallery: 
