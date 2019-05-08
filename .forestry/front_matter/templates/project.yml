@@ -20,4 +20,5 @@ fields:
   name: gallery
   label: gallery
 pages:
+- content/projects/cobogó.md
 - content/projects/bnp-paribas-brochure.md
