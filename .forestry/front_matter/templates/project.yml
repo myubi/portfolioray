@@ -20,6 +20,7 @@ fields:
   name: gallery
   label: gallery
 pages:
+- content/projects/martel.md
 - content/projects/cashel.md
 - content/projects/adventure.md
 - content/projects/bom-tempo.md
