@@ -20,5 +20,6 @@ fields:
   name: gallery
   label: gallery
 pages:
+- content/projects/bear-hug.md
 - content/projects/cobogó.md
 - content/projects/bnp-paribas-brochure.md
