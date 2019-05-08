@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Rachel Melo</title>
+    <link>http://rachelmds.com/projects/</link>
+    <description>Recent content in Projects on Rachel Melo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 May 2019 18:25:35 +0100</lastBuildDate>
+    
+	<atom:link href="http://rachelmds.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Hobbit &#43; Miss Peregrine’s Home for Peculiar Children</title>
+      <link>http://rachelmds.com/projects/books01/</link>
+      <pubDate>Tue, 07 May 2019 18:25:35 +0100</pubDate>
+      
+      <guid>http://rachelmds.com/projects/books01/</guid>
+      <description>Editorial work for a college project in which I redesigned the text formatting (including stylistic choices) for the books “The Hobbit” by JRR Tolkien, and “Ms. Peregrine’s Home for Peculiar Children” by Ramsom Riggs. The illustration for this project was made by a classmate. Used Adobe InDesign.
+Trabalho editorial para um projeto da faculdade no qual rediagramei os livros “O Hobbit” por JRR Tolkien e “O Orfanato da Srta. Peregrine para Crianças Peculiares” por Ramson Riggs.</description>
+    </item>
+    
+    <item>
+      <title>The Invention of Morel</title>
+      <link>http://rachelmds.com/projects/books02/</link>
+      <pubDate>Tue, 07 May 2019 15:47:43 +0100</pubDate>
+      
+      <guid>http://rachelmds.com/projects/books02/</guid>
+      <description>Editorial work for a college project in which I designed a cover of the book The Invention of Morel, by Adolfo Bioy Casares. I also redesigned the text formatting of the entire book, and was responsible for its printing as well. Used Adobe Illustration for the artwork and Adobe InDesign for text formatting.
+Trabalho editorial para um projeto da faculdade no qual eu fiz um design da capa do livro A Invenção de Morel, por Adolfo Bioy Casares.</description>
+    </item>
+    
+  </channel>
+</rss>
