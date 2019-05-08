@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ block "title" . }}{{ .Site.Title }} {{ with .Title }} | {{ . }}{{ end }}{{ end }}</title>
+    
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    
+    <link rel="shortcut icon" href='{{ "img/favicon.ico" | absURL }}'>
+    
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href='{{ "css/style.css" | absURL }}' rel='stylesheet' type="text/css" />
+        
+    {{- template "_internal/schema.html" . -}}
+  </head>
+  <body>
+    <div class="container">
+      {{ block "header" . }}
+        {{ partial "header.html" . }}
+      {{ end }}
+      
+      {{ block "main" . }}
+        <!-- The part of the page that begins to differ between templates -->
+      {{ end }}
+      
+      {{ block "footer" . }}
+        {{ partial "footer.html" . }}
+      {{ end }}
+    </div>
+    <script src='{{ "js/modernizr-custom.js" | absURL }}'></script>    
+    <script src='{{ "js/main.js" | absURL }}'></script>
+  </body>
+</html>

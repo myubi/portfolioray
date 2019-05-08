@@ -1,0 +1,13 @@
+baseURL = "http://rachelmds.com"
+languageCode = "en-us"
+title = "Rachel Melo"
+sectionPagesMenu = "main"
+[menu]
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Work"
+    url = "/"
+    weight = -110
+
+

@@ -1,0 +1,45 @@
+{{ define "main" }}
+<main>
+	<div class="img-nav">
+		{{ if .NextInSection }}
+			<a href="{{.NextInSection.Permalink}}">Prev</a>		
+		{{ else }}
+			<span>Prev</span>
+		{{ end }}
+		
+		{{ if .PrevInSection }}
+			<a href="{{.PrevInSection.Permalink}}">Next</a>		
+		{{ else }}
+			<span>Next</span>
+		{{ end }}
+  </div>
+	
+	<div class="portfolio-item">
+		
+		{{ with .Params.gallery }}
+		<div class="imgs">
+			
+			{{ range . }}
+
+			<button class="lightbox">
+			 <img src="{{ . | absURL }}" />
+			</button>
+			
+			{{ end }}
+			
+		</div>
+		{{ end }}
+		
+		<div class="text">
+			<h2>{{ .Title }}</h2>
+			{{ .Content }}
+		</div>
+
+	</div>
+	
+</main>
+<div id="lightbox-container" class="lightbox-target">
+	<img id="lightbox-img" src="" />
+	<a class="lightbox-close" id="lightbox-close" href="#!"></a>
+</div>
+{{ end }}

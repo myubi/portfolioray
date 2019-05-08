@@ -1,0 +1,11 @@
+{{ define "main" }}
+        <div class="grid">
+          {{ range .Pages }}
+          
+            <div class="item" data-title="">
+              <a href="{{ .URL }}"><img src="{{ .Params.thumbnail }}" /></a>
+            </div>
+        
+          {{ end }}
+        </div>
+{{ end }}
