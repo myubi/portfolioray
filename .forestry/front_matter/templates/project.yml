@@ -20,6 +20,7 @@ fields:
   name: gallery
   label: gallery
 pages:
+- content/projects/oranges.md
 - content/projects/killer-babysitter.md
 - content/projects/13th-doctor.md
 - content/projects/eleven.md
