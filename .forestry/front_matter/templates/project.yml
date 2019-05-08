@@ -20,6 +20,7 @@ fields:
   name: gallery
   label: gallery
 pages:
+- content/projects/moon-river.md
 - content/projects/wisdom-and-courage.md
 - content/projects/oranges.md
 - content/projects/killer-babysitter.md
