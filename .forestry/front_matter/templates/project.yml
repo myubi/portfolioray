@@ -20,6 +20,7 @@ fields:
   name: gallery
   label: gallery
 pages:
+- content/projects/adventure.md
 - content/projects/bom-tempo.md
 - content/projects/allons-y.md
 - content/projects/first-turnabout.md
